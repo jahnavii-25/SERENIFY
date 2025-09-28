@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(135deg, #c2e9fb 0%, #a1c4fd 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background: #ffffffd9;
+  backdrop-filter: blur(8px);
+}
+
+.card h4 {
+  color: #444;
+}
+
+textarea {
+  border-radius: 10px !important;
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #6c63ff !important;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5146d9 !important;
+  transform: scale(1.03);
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.recharts-wrapper {
+  margin: auto;
+}
